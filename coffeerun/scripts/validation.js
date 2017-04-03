@@ -4,6 +4,11 @@
     var Validation = {
         isCompanyEmail: function(email) {
             return /.+@bignerdranch\.com$/.test(email);
+
+        },
+
+        isEmailPresent: function(email){
+
         },
 
         isDecafValid: function(string, integer) {
